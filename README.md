@@ -1,2 +1,18 @@
-# weather-data-analysis
-This project focuses on the preprocessing and exploration of a real-world weather dataset. It is the first phase of a multi-step data science project, laying the groundwork for deeper analysis and predictive modeling in later stages.
+# Weather Data Analysis - Phase 1
+
+## Objective
+This phase involves loading and preprocessing weather data, including:
+- Reading the dataset
+- Handling missing values
+- Converting timestamps
+- Saving basic visualizations
+
+## Structure
+- `data/`: Contains the input CSV file.
+- `notebooks/phase1_preprocessing.py`: Main Python script.
+- `plots/`: Stores output charts.
+- `requirements.txt`: List of Python dependencies.
+
+## Usage
+```bash
+python notebooks/phase1_preprocessing.py
