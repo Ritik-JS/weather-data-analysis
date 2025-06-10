@@ -7,7 +7,7 @@ import os
 os.makedirs("../plots", exist_ok=True)
 
 # Load the data
-df = pd.read_csv("../data/weather_data.csv")
+df = pd.read_csv("../data/weather_data.csv.csv")
 
 # Convert timestamp to datetime
 df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce')
