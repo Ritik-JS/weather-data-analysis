@@ -1,4 +1,4 @@
-# Weather Data Analysis - Phase 1
+# Weather Data Analysis
 
 ## Objective
 This phase involves loading and preprocessing weather data, including:
