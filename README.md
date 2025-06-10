@@ -13,6 +13,18 @@ This phase involves loading and preprocessing weather data, including:
 - `plots/`: Stores output charts.
 - `requirements.txt`: List of Python dependencies.
 
-## Usage
+# Weather Data Analysis - Phase 2: Pie Chart Visualization
+
+## Objective
+Visualize the distribution of different weather conditions using a pie chart.
+
+## Visualization
+- **Pie Chart**: Shows the percentage share of each weather condition (e.g., sunny, rainy, cloudy) in the dataset.
+
+## How to Run
 ```bash
 python notebooks/phase1_preprocessing.py
+pip install -r requirements.txt
+python notebooks/phase2_pie_chart.py
+
+
